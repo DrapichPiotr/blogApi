@@ -1,0 +1,8 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "Mongoose core package",
+  "main": "index.js",
+  "author": "Drapich Piotr",
+  "license": "MIT"
+}

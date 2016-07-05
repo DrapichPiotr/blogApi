@@ -1,0 +1,38 @@
+{
+  "name": "apiblogpd",
+  "version": "1.0.0",
+  "description": "blog API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-dev": "nodemon src/index.js"
+  },
+  "author": "Piotr Drapich <drapich.piotr@gmail.com>",
+  "dependencies": {
+    "babel-core": "^6.7.4",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-preset-node5": "^11.0.1",
+    "babel-register": "^6.7.2",
+    "bcryptjs": "^2.3.0",
+    "boom": "^3.1.2",
+    "glue": "^3.2.0",
+    "hapi": "^13.3.0",
+    "hapi-auth-jwt2": "^5.7.0",
+    "hapi-mongoose": "^1.0.1",
+    "joi": "^8.0.5",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^5.7.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "6.1.0",
+    "eslint-plugin-react": "^4.3.0",
+    "nodemon": "^1.9.1"
+  },
+  "engines": {
+    "node": ">= 5",
+    "npm": ">= 3"
+  }
+}
